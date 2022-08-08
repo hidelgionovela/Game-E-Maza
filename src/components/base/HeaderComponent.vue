@@ -1,26 +1,45 @@
 <template>
-  <q-header elevated>
-        <q-toolbar>
-          <q-btn flat round dense icon="menu" class="q-mr-sm" />
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
-          </q-avatar>
+        <q-header class="bg-white text-primary">
+                <q-toolbar>
+                        <q-btn flat round dense icon="menu" class="q-mr-sm" />
 
-          <q-toolbar-title>Quasar Framework</q-toolbar-title>
+                        <q-toolbar-title>
+                                <div class=" text-center">
+                                <div class="text-grey text-bold" style="font-size: 12px">Caloiro</div>
+                                <div>
+                                        <q-linear-progress rounded size="16px" :value="progress" color="warning" class="q-mt-sm" />
+                                </div>
+                                <div style="font-size: 12px">300 pts <span class="text-grey-9 text-bold"> / 1000 pts</span> </div>
+                                </div>
+                        </q-toolbar-title>
 
-          <q-btn flat round dense icon="whatshot" />
-        </q-toolbar>
-      </q-header>
+                        <q-btn round dense>
+                                <q-avatar>
+                                        <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+                                </q-avatar>
+                        </q-btn>
+                </q-toolbar>
+        </q-header>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue'
+
 
 export default defineComponent({
-  name: 'HeaderComponent'
+   name: 'HeaderComponent',
+   
+    setup() {
+        const progress = ref(0.4)
+        return {
+                progress
+        }
+    }
+    
 })
+
+
 </script>
 
 <style scoped>
-
 </style>
