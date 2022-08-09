@@ -8,11 +8,11 @@
         active-color="primary"
         class="bg-white text-grey shadow-2"
       >
-        <q-tab name="mails" icon="mail" />
-        <q-tab name="alarms1" icon="alarm" />
-        <q-tab name="alarms2" icon="alarm" />
-        <q-tab name="alarms3" icon="alarm" />
-        <q-tab name="movies" icon="movie" />
+        <q-route-tab to="/" name="mails" icon="mail" />
+        <q-route-tab to="/estatistica" name="estatistica" icon="alarm" />
+        <q-route-tab to="/pontos" name="alarms2" icon="alarm" />
+        <q-route-tab to="/ranking" name="alarms3" icon="alarm" />
+        <q-route-tab to="/user" name="movies" icon="movie" />
       </q-tabs>
       </div>
       </q-footer>
