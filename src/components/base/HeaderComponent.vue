@@ -1,13 +1,13 @@
 <template>
         <q-header class="bg-white text-primary">
                 <q-toolbar>
-                        <q-btn flat round dense icon="menu" class="q-mr-sm" />
+                        <q-btn flat round  icon="menu" class="" />
 
                         <q-toolbar-title>
                                 <div class=" text-center">
-                                <div class="text-grey text-bold" style="font-size: 12px">Caloiro</div>
+                                <div class="text-dark text-bold" style="font-size: 12px; margin-top: 5px;">Caloiro</div>
                                 <div>
-                                        <q-linear-progress rounded size="16px" :value="progress" color="warning" class="q-mt-sm" />
+                                        <q-linear-progress rounded size="13px" :value="progress" color="primary" class="q-mt-xs" />
                                 </div>
                                 <div style="font-size: 12px">300 pts <span class="text-grey-9 text-bold"> / 1000 pts</span> </div>
                                 </div>
