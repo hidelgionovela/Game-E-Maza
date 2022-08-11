@@ -24,11 +24,11 @@
       <q-scroll-area style="height: 180px; ">
         <div class="row no-wrap " style="">
           <div v-for="n in 10" :key="n" style="width: 190px; border-radius: 50px;" class="q-pa-sm">
-            <q-card class="my-card bg-grey-6 " style="height: 37px; max-width: 300px; border-radius: 20px;">
+            <q-card class="my-card bg-grey " style="height: 37px; max-width: 300px; border-radius: 20px;">
               <q-img style="height: 160px;"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdTrm3kjw714dHL_m2n56gWJB3PF4vyVIjOUYdSYlNjkL4HmQYsSazxg5_-YW1tVKSZU&usqp=CAU">
                 <div class="absolute-full text-subtitle2 ">
-                  <div style="font-size:16px">Matematica</div>
+                  <div style="font-size:16px"></div>
 
                 </div>
               </q-img>
@@ -40,7 +40,7 @@
 
 
 
-    <div class="q-pa-md q-gutter-md">
+    <div class="q-pa-md q-gutter-md" style="background-color:#E0E6F3; border-radius: 55px 35px 40px 60px">
       <q-list class="" style="max-width: 350px">
         <q-item-label header>Historico</q-item-label>
 
