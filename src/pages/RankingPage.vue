@@ -79,8 +79,14 @@
     <div class="q-pa-md" style="max-width: 350px">
       <q-list padding>
 
+        
 
         <q-item>
+
+          <q-item>
+            <q-item-label style="font-size:18pt">3rd</q-item-label>
+          </q-item>
+
           <q-item-section top avatar>
             <q-avatar>
               <img src="https://cdn.quasar.dev/img/boy-avatar.png">
@@ -100,6 +106,10 @@
         <q-separator spaced />
 
         <q-item>
+
+          <q-item>
+            <q-item-label style="font-size:18pt">4rd</q-item-label>
+          </q-item>
           <q-item-section top avatar>
             <q-avatar>
               <img src="https://cdn.quasar.dev/img/boy-avatar.png">
@@ -119,6 +129,10 @@
         <q-separator spaced />
 
         <q-item>
+
+          <q-item>
+            <q-item-label style="font-size:18pt">5rd</q-item-label>
+          </q-item>
           <q-item-section top avatar>
             <q-avatar>
               <img src="https://cdn.quasar.dev/img/boy-avatar.png">
@@ -138,6 +152,9 @@
         <q-separator spaced />
 
         <q-item>
+          <q-item>
+            <q-item-label style="font-size:18pt">6rd</q-item-label>
+          </q-item>
           <q-item-section top avatar>
             <q-avatar>
               <img src="https://cdn.quasar.dev/img/boy-avatar.png">
@@ -156,7 +173,10 @@
 
         <q-separator spaced />
 
-        <q-item>
+        <q-item >
+          <q-item>
+            <q-item-label style="font-size:18pt">7rd</q-item-label>
+          </q-item>
           <q-item-section top avatar>
             <q-avatar>
               <img src="https://cdn.quasar.dev/img/boy-avatar.png">
@@ -176,6 +196,9 @@
         <q-separator spaced />
 
         <q-item>
+          <q-item>
+            <q-item-label style="font-size:18pt">8rd</q-item-label>
+          </q-item>
           <q-item-section top avatar>
             <q-avatar>
               <img src="https://cdn.quasar.dev/img/boy-avatar.png">
@@ -195,6 +218,9 @@
         <q-separator spaced />
 
         <q-item>
+          <q-item>
+            <q-item-label style="font-size:18pt">9rd</q-item-label>
+          </q-item>
           <q-item-section top avatar>
             <q-avatar>
               <img src="https://cdn.quasar.dev/img/boy-avatar.png">
@@ -214,6 +240,9 @@
         <q-separator spaced />
 
         <q-item>
+          <q-item>
+            <q-item-label style="font-size:18pt">10rd</q-item-label>
+          </q-item>
           <q-item-section top avatar>
             <q-avatar>
               <img src="https://cdn.quasar.dev/img/boy-avatar.png">
@@ -261,6 +290,10 @@ export default defineComponent({
 
 
 })
+
+
+
+
 </script>
 
 <style scoped>
